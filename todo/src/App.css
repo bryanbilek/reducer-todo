@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.todo.completed {
+  text-decoration: line-through;
+  background-color: gray;
+}
+
+.todo-input {
+  width: 35%;
+  border: 1px solid red;
+}
+
+.todo-button, .clear-completed-button {
+  background-color: red;
+  color: white;
+  border-radius: 8px;
+  margin: 1%;
+  width: 20%;
+  font-size: 1rem;
+  padding: .25% 0;
+}
+
+.todo-button:hover, .clear-completed-button:hover {
+  background-color: purple;
+}
+
+p {
+  color: red;
+  font-size: 2rem;
+}
